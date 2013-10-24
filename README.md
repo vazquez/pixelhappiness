@@ -1,11 +1,4 @@
-Little Flame, Big Fire.
+Pixel Happiness
 ===========
 
-A simple boilerplate to get Ember working in Mixture, with the awesomeness of Sass.
-
-Includes:
-
-- Ember.js
-- jQuery
-- Handlebars
-- Sass
+A blog running on the flame of Ember.js
