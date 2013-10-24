@@ -5,7 +5,14 @@ App.Router.map(function() {
 });
 
 App.IndexRoute = Ember.Route.extend({
-  model: function() {
-    return ['red', 'yellow', 'blue'];
+  // Index Route
+});
+
+App.ApplicationController = Ember.Controller.extend({
+  init: function(){
+    this.set('response', localStorage.appName);
+  },
+  saveName: function(value) {
+    localStorage.appName = value;
   }
 });
